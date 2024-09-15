@@ -4,7 +4,7 @@ import os
 import asyncio
 from concurrent.futures import ThreadPoolExecutor
 from aiohttp import ClientSession
-from asyncioCode_ThreadExecutor import creating_folder, extract_and_remove_zip, downloading_files, main , urls, save_path 
+from main import creating_folder, extract_and_remove_zip, downloading_files, main , urls, save_path 
 
 class TestDownloadScript(unittest.IsolatedAsyncioTestCase):
 
